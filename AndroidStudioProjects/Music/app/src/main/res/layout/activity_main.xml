@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:background="#6909C6"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <EditText
+            android:id="@+id/tim"
+            android:background="@drawable/background_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:drawableLeft="@android:drawable/ic_menu_search"
+            android:hint="Tim kiem bai hat"
+            android:paddingLeft="7dp" />
+    </LinearLayout>
+    <ListView
+        android:background="#84F870"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvbaihat"/>
+
+</LinearLayout>

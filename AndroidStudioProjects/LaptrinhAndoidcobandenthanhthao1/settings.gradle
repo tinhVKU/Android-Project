@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Lap trinh Andoid co ban den thanh thao 1"

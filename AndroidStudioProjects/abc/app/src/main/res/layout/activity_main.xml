@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="phan van tinh"
+        android:textSize="20dp"/>
+
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="dh viet han"
+        android:textSize="20dp"/>
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="lop sh 20it6"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:layout_width="300dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="300dp"-->
+<!--            android:layout_height="wrap_content">-->
+
+
+            <RadioButton
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#0E7012"
+                android:checked="true"
+                android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="Nu" />
+        <!--        </LinearLayout>-->
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NEXT"
+        android:background="#ff0"
+        />
+
+    <DatePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

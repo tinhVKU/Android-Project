@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#DD6C48">
+
+        <TextView
+            android:id="@+id/tieude"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="?attr/actionModeCloseDrawable"
+            android:gravity="center"
+            android:text="AN TOÀN THỰC PHẨM"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/healthy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <ScrollView
+           android:layout_marginTop="80dp"
+           android:layout_marginBottom="110dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <LinearLayout
+               android:layout_height="match_parent"
+               android:layout_width="match_parent"
+               android:orientation="vertical">
+               <TextView
+                   android:id="@+id/nhanbiet"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:textColor="#AE362E"
+                   android:textSize="25dp"
+                   android:textStyle="bold"
+                   android:gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+
+                   android:text="Nhận Biết Thực Phẩm Bẩn"
+                   android:background="@drawable/background"/>
+               <TextView
+                   android:id="@+id/tuoi"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:textColor="#675D04"
+                   android:textSize="25dp"
+                   android:textStyle="bold"
+                   android:gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:layout_weight="1"
+                   android:text="Bảo Quản Thực Phẩm Tươi"
+                   android:background="@drawable/background"/>
+               <TextView
+                   android:id="@+id/kho"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:textColor="#C8285E"
+                   android:textSize="25dp"
+                   android:textStyle="bold"
+                   android:gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:layout_weight="1"
+                   android:text="Bảo Quản Thực Phẩm Khô"
+                   android:background="@drawable/background"/>
+               <TextView
+                   android:id="@+id/ki"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:textColor="#673AB7"
+                   android:textSize="25dp"
+                   android:textStyle="bold"
+                   android:gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:layout_weight="1"
+                   android:text="Những Cặp Thực Phẩm Kỵ Nhau"
+                   android:background="@drawable/background"/>
+               <TextView
+                   android:id="@+id/lamsach"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:textColor="#635E5C"
+                   android:textSize="25dp"
+                   android:textStyle="bold"
+                   android:gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:layout_weight="1"
+                   android:text="Cách Làm Sạch Thực Phẩm"
+                   android:background="@drawable/background"/>
+               <TextView
+                   android:id="@+id/sailam"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:textColor="#1FACBF"
+                   android:textSize="25dp"
+                   android:textStyle="bold"
+                   android:gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:layout_weight="1"
+                   android:text="Những Sai Lầm Khi Chế Biến"
+                   android:background="@drawable/background"/>
+               <TextView
+                   android:id="@+id/vesinh"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginRight="20dp"
+                   android:textColor="#011315"
+                   android:textSize="25dp"
+                   android:textStyle="bold"
+                   android:gravity="center"
+                   android:layout_width="match_parent"
+                   android:layout_height="70dp"
+                   android:layout_weight="1"
+                   android:text="Chế Biến Đảm Bảo Vệ Sinh"
+                   android:background="@drawable/background"/>
+
+           </LinearLayout>
+       </ScrollView>
+    </LinearLayout>
+</LinearLayout>

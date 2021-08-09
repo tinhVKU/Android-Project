@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".meovat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#DD6C48">
+
+        <TextView
+            android:id="@+id/tieude"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="?attr/actionModeCloseDrawable"
+            android:gravity="center"
+            android:text="MẸO VẶT NHÀ BẾP"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nenchebien">
+    <ScrollView
+        android:layout_marginBottom="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:weightSum="5"
+
+                android:background="@drawable/layout"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="75dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@android:drawable/star_big_on"/>
+                <TextView
+                    android:id="@+id/trangtri"
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Trang trí thức ăn đẹp mắt "
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:id="@+id/ytrangtri"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_marginRight="7dp"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="Click để xem video ->"
+                        android:textStyle="italic" />
+                    <TextView
+                       android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="85dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/youtube1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="5"
+                android:id="@+id/btn_vitaminA"
+                android:background="@drawable/layout"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="75dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@android:drawable/star_big_on"/>
+                <TextView
+                    android:paddingRight="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_weight="2"
+                    android:id="@+id/cat"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_vertical"
+                    android:text="Mẹo cắt thái rau củ"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:id="@+id/ycat"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_marginRight="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="Click để xem video ->"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="85dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/youtube1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="5"
+                android:background="@drawable/layout"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="75dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@android:drawable/star_big_on"/>
+                <TextView
+                    android:id="@+id/sap"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_vertical"
+                    android:text="Mẹo sắp xếp nhà bếp"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:id="@+id/ysap"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_marginRight="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="Click để xem video ->"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="85dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/youtube1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="5"
+                android:background="@drawable/layout"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="75dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@android:drawable/star_big_on"/>
+                <TextView
+                    android:id="@+id/nenbiet"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_vertical"
+                    android:text="20 mẹo nhà bếp mà bạn nên biết"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+<!--                    https://baotieudung.vn/bai-viet/22-meo-vat-nha-bep-ban-can-biet.html-->
+
+                <LinearLayout
+                    android:id="@+id/ynenbiet"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_marginRight="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="Click để xem video ->"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="85dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/youtube1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="5"
+                android:background="@drawable/layout"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="75dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@android:drawable/star_big_on"/>
+                <TextView
+                    android:id="@+id/kinhdien"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_vertical"
+                    android:text="Những mẹo vặt kinh điển"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:id="@+id/ykinhdien"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_marginRight="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="Click để xem video ->"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="85dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/youtube1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="5"
+                android:background="@drawable/layout"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="75dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@android:drawable/star_big_on"/>
+                <TextView
+                    android:id="@+id/bimat"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_vertical"
+                    android:text="9 Mẹo vặt bí mật của dân bếp"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:id="@+id/ybimat"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_marginRight="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="Click để xem video ->"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="85dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/youtube1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="5"
+                android:background="@drawable/layout"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="75dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@android:drawable/star_big_on"/>
+                <TextView
+                    android:id="@+id/hay"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_vertical"
+                    android:text="Mẹo vặt hay nhà bếp"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:id="@+id/yhay"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_marginRight="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="Click để xem video ->"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="85dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/youtube1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="5"
+                android:background="@drawable/layout"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="75dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@android:drawable/star_big_on"/>
+
+                <TextView
+                    android:id="@+id/giadinh"
+                    android:paddingRight="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:gravity="fill_vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="Mẹo vặt trong gia đình"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/ygiadinh"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_marginRight="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="Click để xem video ->"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="85dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/youtube1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="5"
+                android:background="@drawable/layout"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="75dp">
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:drawableLeft="@android:drawable/star_big_on"/>
+                <TextView
+                    android:id="@+id/cuocsong"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:layout_weight="2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="fill_vertical"
+                    android:text="Mẹo vặt cuôc sống"
+                    android:textSize="26dp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:id="@+id/ycuocsong"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_weight="3">
+
+                    <TextView
+                        android:layout_marginRight="7dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:text="Click để xem video ->"
+                        android:textStyle="italic" />
+                    <TextView
+                        android:gravity="center"
+                        android:layout_weight="1"
+                        android:layout_width="85dp"
+                        android:layout_height="42dp"
+                        android:background="@drawable/youtube1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</LinearLayout>

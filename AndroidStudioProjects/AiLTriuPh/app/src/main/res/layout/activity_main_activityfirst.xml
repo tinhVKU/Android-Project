@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#331580"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/icontrieuphu"/>
+    <LinearLayout
+        android:id="@+id/btns"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="25dp"
+        android:background="#331580"
+        android:layout_marginTop="10dp">
+
+        <Button
+
+            android:id="@+id/play"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button"
+            android:text="CHƠI NGAY"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <Button
+
+            android:id="@+id/huongdan"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button"
+            android:text="HƯỚNG DẪN"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <Button
+
+            android:id="@+id/record"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button"
+            android:text="ĐIỂM CAO"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+        <Button
+
+            android:id="@+id/exit"
+            android:layout_marginTop="20dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:background="@drawable/button"
+            android:text="THOÁT"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+</LinearLayout>

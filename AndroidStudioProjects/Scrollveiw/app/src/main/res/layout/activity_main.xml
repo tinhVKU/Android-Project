@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:weightSum="5.8"
+        android:gravity="center"
+        android:background="#ECA34B"
+        android:layout_width="match_parent"
+        android:layout_height="63dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ECA34B"
+            android:layout_weight="4.8"
+            app:srcCompat="@drawable/logomoi" />
+        <TextView
+            android:layout_weight="1"
+            android:text="CẨM NANG NẤU ĂN"
+            android:paddingRight="19dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="31dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/bamien"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/a1"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#5C221F1F"
+                    android:gravity="center"
+                    android:text="MÓN ĂN 3 MIỀN"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mbac"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/mbac"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#5C221F1F"
+                    android:gravity="center"
+                    android:text="ĐẶC SẢN MIỀN BẮC"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mtrung"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/mtrung"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#5C221F1F"
+                    android:gravity="center"
+                    android:text="ĐẶC SẢN MIỀN TRUNG"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mnam"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/mnam"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#5C221F1F"
+                    android:gravity="center"
+                    android:text="ĐẶC SẢN MIỀN NAM"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/meovat"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/meovat"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#5C221F1F"
+                    android:gravity="center"
+                    android:text="MẸO VẶT TRONG NẤU ĂN"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/cdd"
+                android:background="@drawable/cdd"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="3dp"
+                android:layout_height="170dp"
+                android:gravity="bottom"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#5C221F1F"
+                    android:gravity="center"
+                    android:text="CÁC CHẤT DINH DƯỠNG"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/amthuc_sukhoe"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/amthucvask"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#5C221F1F"
+                    android:gravity="center"
+                    android:text="ẨM THỰC - SỨC KHỎE"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/antoan"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/an_toan"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#5C221F1F"
+                    android:gravity="center"
+                    android:text="AN TOÀN THỰC PHẨM"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

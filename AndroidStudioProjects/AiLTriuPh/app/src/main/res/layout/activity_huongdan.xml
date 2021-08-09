@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#331580"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:text="LUẬT CHƠI"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:background="@drawable/custum_blule_coner30"/>
+    <TextView
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:text="Người chơi phải trả lời 15 câu hỏi với cấp độ từ dễ đến khó, thời gian suy nghĩ không hạn chế.  Mỗi câu hỏi có một mức tiền thưởng."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:background="@drawable/button"
+        android:text="Kể từ câu số 10 trở đi, mỗi khi người chơi trả lời đúng một câu hỏi, người dẫn chương trình sẽ ký một tấm séc cho người chơi có trị giá giải thưởng tương đương với câu hỏi mà người chơi trả lời đúng."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:background="@drawable/button"
+        android:text="Người chơi có quyền chơi tiếp hoặc dừng cuộc chơi. Nếu dừng cuộc chơi, họ sẽ ra về với số tiền tương ứng với câu hỏi đã trả lời đúng gần nhất. Nếu chơi tiếp mà trả lời sai, cuộc chơi khép lại và người chơi nhận số tiền thưởng tương ứng với mốc quan trọng gần nhất."
+        android:textSize="20dp"
+        android:textColor="@color/white"
+
+        />
+
+    <Button
+        android:id="@+id/accept"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/custum_blule_coner30"
+        android:text="Đã Hiểu"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+</LinearLayout>

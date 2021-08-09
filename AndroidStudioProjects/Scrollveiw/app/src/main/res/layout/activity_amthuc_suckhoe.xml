@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#DD6C48">
+
+        <TextView
+            android:id="@+id/tieude"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawableLeft="?attr/actionModeCloseDrawable"
+            android:gravity="center"
+            android:text="ẨM THỰC VÀ SỨC KHỎE"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/suckhoe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+       <LinearLayout
+           android:layout_marginTop="50dp"
+           android:layout_marginBottom="170dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+           <TextView
+               android:id="@+id/giamcan"
+               android:layout_marginBottom="5dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:textColor="#AE362E"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="Ẩm Thực Cho Người Giảm Cân"
+               android:background="@drawable/background"/>
+           <TextView
+               android:id="@+id/beophi"
+               android:layout_marginTop="5dp"
+               android:layout_marginBottom="5dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:textColor="#E6DA6B"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="Ẩm Thực Cho Người Béo Phì"
+               android:background="@drawable/background"/>
+           <TextView
+               android:id="@+id/gia"
+               android:layout_marginTop="5dp"
+               android:layout_marginBottom="5dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:textColor="#C8285E"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="Ẩm Thực Cho Người Già"
+               android:background="@drawable/background"/>
+           <TextView
+               android:id="@+id/nho"
+               android:layout_marginTop="5dp"
+               android:layout_marginBottom="5dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:textColor="#673AB7"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="Ẩm Thực Cho Trẻ Em"
+               android:background="@drawable/background"/>
+           <TextView
+               android:id="@+id/tieuduong"
+               android:layout_marginTop="5dp"
+               android:layout_marginBottom="5dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:textColor="#635E5C"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="Ẩm Thực Cho Người Tiểu Đường"
+               android:background="@drawable/background"/>
+           <TextView
+               android:id="@+id/soithan"
+               android:layout_marginTop="5dp"
+               android:layout_marginLeft="20dp"
+               android:layout_marginRight="20dp"
+               android:textColor="#378CE6"
+               android:textSize="25dp"
+               android:textStyle="bold"
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:layout_weight="1"
+               android:text="Ẩm Thực Cho Người Sỏi Thận"
+               android:background="@drawable/background"/>
+       </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
